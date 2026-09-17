@@ -1,0 +1,146 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B1A"/>
+      <stop offset="50%" stop-color="#11142D"/>
+      <stop offset="100%" stop-color="#1B1033"/>
+    </linearGradient>
+
+    <linearGradient id="textGradient">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#BD93F9"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40"
+            fill="none"
+            stroke="#00E5FF"
+            stroke-opacity="0.12"
+            stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+
+  <!-- Ambient glow -->
+  <ellipse cx="600" cy="130" rx="360" ry="100"
+           fill="#7C4DFF"
+           opacity="0.12"
+           filter="url(#glow)">
+    <animate attributeName="opacity"
+             values="0.08;0.2;0.08"
+             dur="6s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Animated horizontal lines -->
+  <path d="M0 250 H1200"
+        stroke="#00E5FF"
+        stroke-opacity="0.5"
+        stroke-width="1">
+    <animate attributeName="stroke-dasharray"
+             values="10 30;30 10;10 30"
+             dur="5s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <path d="M0 255 H1200"
+        stroke="#BD93F9"
+        stroke-opacity="0.35"
+        stroke-width="1">
+    <animate attributeName="stroke-dashoffset"
+             from="0"
+             to="-200"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <!-- Decorative particles -->
+  <g fill="#00E5FF">
+    <circle cx="130" cy="75" r="3">
+      <animate attributeName="opacity"
+               values="0.2;1;0.2"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1040" cy="95" r="3">
+      <animate attributeName="opacity"
+               values="1;0.2;1"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="180" cy="230" r="2">
+      <animate attributeName="opacity"
+               values="0.2;1;0.2"
+               dur="4s"
+               repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g fill="#BD93F9">
+    <circle cx="1020" cy="235" r="2">
+      <animate attributeName="opacity"
+               values="1;0.2;1"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Main heading -->
+  <text x="600" y="135"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="48"
+        font-weight="bold"
+        fill="url(#textGradient)">
+    KRISHNAKANT SHARMA
+  </text>
+
+  <!-- Animated underline -->
+  <rect x="350" y="155" width="500" height="2"
+        fill="#00E5FF">
+    <animate attributeName="width"
+             values="0;500;500;0"
+             dur="5s"
+             repeatCount="indefinite"/>
+    <animate attributeName="x"
+             values="600;350;350;600"
+             dur="5s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Subtitle -->
+  <text x="600" y="200"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="19"
+        fill="#D6D6F5">
+    SOFTWARE DEVELOPER  •  AI EXPLORER
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="806" y="222" width="8" height="17" fill="#BD93F9">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Border -->
+  <rect x="1" y="1" width="1198" height="318"
+        rx="18"
+        fill="none"
+        stroke="#00E5FF"
+        stroke-opacity="0.5"
+        stroke-width="1"/>
+</svg>
