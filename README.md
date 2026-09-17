@@ -2,13 +2,9 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=240&color=gradient&customColorList=12,20,24,30&text=KRISHNAKANT%20SHARMA&fontSize=42&fontColor=FFFFFF&animation=twinkling&stroke=00E5FF&strokeWidth=1&fontAlignY=38&desc=SOFTWARE%20DEVELOPER%20%7C%20AI%20EXPLORER&descSize=16&descAlignY=60" width="100%" />
+<img src="./assets/header.svg" width="100%" alt="Krishnakant Sharma Header"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=19&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=850&lines=Building+systems+that+solve+real-world+problems;Full+Stack+Developer+in+progress;Exploring+AI%2C+Cloud+%26+DevOps;Turning+ideas+into+functional+products" />
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=KrishnaKant333&label=PROFILE+VIEWS&color=00e5ff&style=for-the-badge" />
 
 </div>
 
@@ -18,32 +14,53 @@
 
 ## `> whoami`
 
+<table>
+<tr>
+<td width="60%" valign="top">
+
 ```typescript
 const krishnakant = {
     name: "Krishnakant Sharma",
     username: "KrishnaKant333",
     role: "Computer Science Student & Developer",
+
     focus: [
         "Full Stack Development",
         "Software Engineering",
         "Artificial Intelligence",
         "DevOps"
     ],
+
     currentlyLearning: [
         "Advanced Backend Development",
         "Cloud Technologies",
         "Machine Learning",
         "System Design"
     ],
-    interests: [
-        "Building useful products",
-        "Automation",
-        "Problem Solving",
-        "Emerging Technologies"
-    ],
+
     mindset: "Learn. Build. Improve. Repeat."
 };
 ```
+
+</td>
+
+<td width="40%" valign="middle">
+
+### `> mission`
+
+Building practical software solutions and exploring how technology can solve real-world problems.
+
+<br/>
+
+- Building full-stack applications
+- Learning backend architecture
+- Exploring AI-powered systems
+- Improving problem-solving skills
+- Experimenting with emerging technologies
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -149,19 +166,64 @@ A full-stack task management application built to practice frontend development,
 
 ## `> current_focus`
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Area | Progress |
-|---|---|
-| Full Stack Development | Building real-world applications |
-| Backend Engineering | REST APIs and database architecture |
-| DevOps | Learning deployment and cloud fundamentals |
-| Artificial Intelligence | Exploring ML and AI-powered systems |
-| System Design | Understanding scalable software architecture |
+### `01` Full Stack Development
 
-</div>
+Building real-world applications using modern frontend and backend technologies.
+
+</td>
+
+<td width="50%" valign="top">
+
+### `02` Backend Engineering
+
+Learning REST APIs, database architecture, and server-side development.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### `03` DevOps
+
+Exploring deployment workflows, cloud platforms, and infrastructure fundamentals.
+
+</td>
+
+<td width="50%" valign="top">
+
+### `04` Artificial Intelligence
+
+Exploring machine learning and AI-powered software systems.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### `05` System Design
+
+Understanding scalable and maintainable software architecture.
+
+</td>
+
+<td width="50%" valign="top">
+
+### `06` Continuous Learning
+
+Improving technical skills through projects, experimentation, and problem solving.
+
+</td>
+</tr>
+</table>
 
 <br/>
+
 
 <!-- ===================== GITHUB ACTIVITY ===================== -->
 
@@ -234,7 +296,7 @@ A full-stack task management application built to practice frontend development,
 <!-- ===================== FOOTER ===================== -->
 
 <div align="center">
-
-### `Building the future, one commit at a time.`
+    
+<img src="./assets/footer.svg" width="100%" alt="Footer Banner"/>
 
 </div>
